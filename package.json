@@ -2,7 +2,7 @@
   "name": "seashells",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://coleve27.github.io/Seashells",
+  "homepage": "http://coleve27.github.io/seashelltwo",
   "dependencies": {
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
