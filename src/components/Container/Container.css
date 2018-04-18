@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  -ms-align-items: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /* background-image: url(../Container/images/sand.jpg);*/
+  /* background-size: cover; */
+}
+
+.gameBoard {
+}
+
+@media (min-width: 1100px) {
+  .container {
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100%;
+
+    background-size: cover;
+  }
+}
