@@ -82,7 +82,7 @@ class Game extends React.Component {
       });
       // console.log(user[0].score);
     } else {
-      alert("try a different pearl");
+      alert("try a different seashell");
       this.setState({
         userData: (this.state.user.score = this.state.user.score - 1)
       });
