@@ -1,12 +1,33 @@
+.login_positioner {
+  /* height: 50%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .login_container {
-  height: 100vh;
+  /* height: 50%; */
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 15%;
 }
 
 .login {
   background-color: white;
   height: 200px;
   width: 300px;
+}
+
+.user_input {
+  width: 200px;
+}
+
+.game_title {
+  color: #96766f;
+  font-family: "Cabin Sketch", cursive;
+  margin-bottom: 5%;
+  font-size: 100px;
+  width: 100%;
 }

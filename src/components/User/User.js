@@ -1,11 +1,12 @@
 import React from "react";
+import "./User.css";
 
 class User extends React.Component {
   render() {
     const { name, score } = this.props.userData;
     console.log(name);
     return (
-      <span>
+      <span className="score_name">
         Name : {name}
         <br />
         Score: {score}

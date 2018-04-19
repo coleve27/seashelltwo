@@ -1,5 +1,32 @@
 .navbar {
-  height: 100px;
-  background-color: black;
-  color: white;
+  background-color: #fbead6;
+  border-radius: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  -ms-align-items: center;
+  align-items: center;
+  border-color: #96766f7a;
+  border-style: solid;
+  border-width: 2px;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+.score_name {
+  color: #96766f;
+  margin: 0px;
+  width: 50%;
+  text-align: right;
+  font-family: "Cabin Sketch", cursive;
+  font-size: 25px;
+}
+
+h1 {
+  font-family: "Cabin Sketch", cursive;
+  color: #96766f;
+  font-size: 50px;
+
+  width: 50%;
+  text-align: center;
 }

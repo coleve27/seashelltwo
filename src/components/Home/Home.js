@@ -16,18 +16,21 @@ class Home extends React.Component {
   render() {
     console.log("render");
     return (
-      <form className="login_container" onSubmit={this.goToGame}>
-        <h2>Please Enter A Username</h2>
+      <div className="login_positioner">
+        <h1 className="title_game"> 100 Seashells</h1>
 
-        <input
-          type="text"
-          ref="myInput"
-          required
-          placeholder="Username"
-          defaultValue="user1"
-        />
-        <button type="submit">Start →</button>
-      </form>
+        <form className="login_container" onSubmit={this.goToGame}>
+          <input
+            className="user_input"
+            type="text"
+            ref="myInput"
+            required
+            placeholder="Username"
+            defaultValue="Please Enter a Username"
+          />
+          <button type="submit">PLAY</button>
+        </form>
+      </div>
     );
   }
 }
