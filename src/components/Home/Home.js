@@ -26,7 +26,7 @@ class Home extends React.Component {
             ref="myInput"
             required
             placeholder="Username"
-            defaultValue="Please Enter a Username"
+            defaultValue=""
           />
           <button type="submit">PLAY</button>
         </form>
